@@ -5,7 +5,6 @@
 #include <isComponent.h>
 #include <isGameObject.h>
 
-
 class GameManager
 {
 public:

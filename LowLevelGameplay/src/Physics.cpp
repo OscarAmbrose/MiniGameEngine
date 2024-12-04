@@ -280,7 +280,7 @@ CollisionInfo* Physics::Collision_AABBAABB(BoxCollider* lhs, BoxCollider* rhs)
 // a = a ^ b;  00000001
 
 
-//Im have implemented this! This is for my notes.
+//I have implemented this! This is for my notes.
 // u_int8 colLayer     //00000001
 // u_int8 detectLayer  //11111001
 
