@@ -1,0 +1,13 @@
+# Binaries
+**/bin/
+!**/SFML-2.6.0/**/*
+bin-int/
+Intermediates/
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj

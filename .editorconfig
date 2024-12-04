@@ -1,0 +1,8 @@
+# top-most EditorConfig file
+root = true
+
+#unix-style newlines with a newline ending every file
+[*]
+end_of_line = 1f
+insert_final_newline = true
+indent_style = tab
