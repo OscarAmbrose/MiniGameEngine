@@ -8,18 +8,12 @@
 #include <iostream>
 #include <GameObject.h>
 #include <GlobalEvents.h>
-#include <GradExGameManager.h>
 #include <AnimationManager.h>
 #include <Physics.h>
 #include <WindowManager.h>
-#include <ObjectPool.h>
-#include <Projectile.h>
 #include <cstdlib>
 #include <ctime>
 
-#include <GradExPlayer.h>
-#include <Weapon.h>
-#include <RespawnManager.h>
 #include <TextRenderer.h>
 
 #define FIXEDFRAMERATE (1.f/60.f)
@@ -32,11 +26,6 @@ int main()
 	std::unique_ptr <FontValues> fontValues = std::make_unique<FontValues>();
 
 	std::unique_ptr<GlobalTexture> globalTextureTest = std::make_unique<GlobalTexture>();
-	
-	std::unique_ptr <GradExGameManager> gameManager = std::make_unique <GradExGameManager>();
-	
-
-	ObjectPooler::InitialisePool();
 
 	srand(static_cast<unsigned int>(time(0)));
 
@@ -51,8 +40,6 @@ int main()
 	
 
 	//Creates the window
-	
-	GameManager::instance->Start();
 	
 	while (window.isOpen())
 	{
